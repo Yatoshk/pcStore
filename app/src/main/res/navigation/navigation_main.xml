@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/category">
+
+    <fragment
+        android:id="@+id/category"
+        android:name="com.example.pcstore.ui.theme.Category"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category"/>
+    <fragment
+        android:id="@+id/busket"
+        android:name="com.example.pcstore.ui.theme.Bucket"
+        android:label="fragment_busket"
+        tools:layout="@layout/fragment_bucket" />
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.example.pcstore.ui.theme.Favorites"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.pcstore.ui.theme.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+</navigation>

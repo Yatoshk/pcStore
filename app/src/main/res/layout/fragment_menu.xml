@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    tools:context=".ui.theme.Menu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@color/purple_dark"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:outlineProvider="none"
+        android:text="@string/profile" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/line" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:background="@color/purple_dark"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:outlineProvider="none"
+        android:text="@string/orders" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/line" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:background="@color/purple_dark"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:outlineProvider="none"
+        android:text="@string/comparison" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="235dp"
+        android:src="@drawable/line" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@color/purple_dark"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif"
+        android:onClick="buttonAbout"
+        android:outlineProvider="none"
+        android:text="@string/about" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="295dp"
+        android:src="@drawable/line" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:background="@color/purple_dark"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:outlineProvider="none"
+        android:text="@string/exit"
+        android:textColor="@color/gray"/>
+
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_dark"
+    tools:context=".ui.theme.Bucket">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/toolbarHome"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="712dp"
+        android:text="@string/busket"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="Итог"/>
+    <TextView
+        android:id="@+id/resultSum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginRight="15dp"
+        android:paddingTop="10dp"
+        android:gravity="right"
+        android:text=""/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/grid_bucket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </ScrollView>
+
+</FrameLayout>
